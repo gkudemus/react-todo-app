@@ -22,5 +22,3 @@ login page
 main page:
 - can add, delete, edit tasks
 - can add, delete, edit comments
-
-![image](https://user-images.githubusercontent.com/6787094/197333156-4bd42190-0225-418d-9ab7-2925fb08efc0.png)
