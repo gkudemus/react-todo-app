@@ -1,0 +1,29 @@
+.label {
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.delete {
+  --accent: var(--accent1);
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.task-group {
+  display: flex;
+  align-items: center;
+  --taskgroup-gap: .5em;
+  gap: var(--taskgroup-gap);
+}
